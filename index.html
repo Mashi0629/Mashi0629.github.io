@@ -19,4 +19,17 @@
     --border: rgba(0,229,195,0.12);
     --glow: rgba(0,229,195,0.15);
   }
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+ 
+  html { scroll-behavior: smooth; }
+ 
+  body {
+    font-family: 'DM Mono', monospace;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    overflow-x: hidden;
+    cursor: none;
+  }
+
   
